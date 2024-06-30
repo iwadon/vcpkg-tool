@@ -71,6 +71,10 @@ namespace vcpkg
         {
             return CPUArchitecture::S390X;
         }
+        if (Strings::starts_with(this->canonical_name(), "ppc-"))
+        {
+            return CPUArchitecture::PPC;
+        }
         if (Strings::starts_with(this->canonical_name(), "ppc64le-"))
         {
             return CPUArchitecture::PPC64LE;

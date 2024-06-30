@@ -10,6 +10,7 @@ namespace vcpkg
         ARM64,
         ARM64EC,
         S390X,
+        PPC,
         PPC64LE,
         RISCV32,
         RISCV64,
